@@ -203,7 +203,7 @@ namespace Chess
                 
                     figure.Click += (s, e) =>
                     {
-                        
+                        // Fork Testing
                         if (focusedFigure is null || focusedFigure.Team == figure.Team)
                         {
                             SetToDefaultColor();
