@@ -194,7 +194,7 @@ namespace Chess
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("This repo forked");
             setButtonLocation();
             setBlackFigureLocations();
             SetWhiteFigureLocations();
